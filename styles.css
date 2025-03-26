@@ -1,12 +1,14 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Comic Sans MS;
     margin: 0;
     padding: 0;
     background-color: #fffbd5;
     color: #838383;
 }
-
+li img{
+    width: 200px;
+}
 header {
     text-align: center;
     padding: 40px 20px;
@@ -74,12 +76,11 @@ ul li {
 
 /* Projects */
 .project {
-    background-color: #1e1e1e;
+    background-color: #d3cbb8;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 0, 81, 0.488);
 }
 
 .project a {
@@ -95,14 +96,18 @@ ul li {
     color: #b20a2c;
     text-decoration: none;
 }
-img{
-    width: 200px;
-    height: auto;
-    object-fit: contain;
-}
-.image{
-    flex-direction: row;
+
+#image {
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+#image img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    clip-path: circle(40%);  
 }
 /* Footer */
 footer {
