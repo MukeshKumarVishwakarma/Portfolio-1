@@ -35,7 +35,6 @@
     flex-direction: row;
     max-width: 578px;
     flex-wrap: wrap;
-
     margin: 10px auto ;
 }
 
@@ -113,4 +112,29 @@
 
 .bt{
     border-top: 4px solid black;
+}
+
+
+@media only screen  and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+      
+    }
+
+    .sudoku_grid {
+        max-width: 100%;
+    }
+
+    .sudoku_grid div {
+        max-width: 1.2em;
+    }
+    #logo img{
+        width: 4.5em;
+    }
+    #name{
+        font-size: 2.5em;
+    }
+    .Header{
+        height: 4.5em;
+    }
 }
